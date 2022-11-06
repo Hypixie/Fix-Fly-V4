@@ -139,7 +139,20 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Fly GUI V3";
 	Text = "by Hypixie";
 	Icon = "rbxthumb://type=Asset&id=1891351283&w=150&h=150"})
-Duration = 5;
+Duration = 14;
+
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Join Discord";
+    Text = "https://dsc.gg/itscream"; -- what the text says (ofc)
+    Duration = 15;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Executed!";
+    Text = "Follow my instagram : @sh1nki_vx"; -- what the text says (ofc)
+    Duration = 16;
+})
 
 Frame.Active = true -- main = gui
 Frame.Draggable = true
