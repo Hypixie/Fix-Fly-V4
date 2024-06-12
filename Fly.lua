@@ -56,7 +56,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255)
 TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 100, 0, 28)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Update Fly V3"
+TextLabel.Text = ".gg/@xsohe"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -137,7 +137,7 @@ nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Fly GUI V3";
-	Text = "by Hypixie";
+	Text = "by xsohe";
 	Icon = "rbxthumb://type=Asset&id=1891351283&w=150&h=150"})
 Duration = 14;
 
